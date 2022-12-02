@@ -1,0 +1,71 @@
+
+
+@media (min-width: 992px) { 
+    
+    #caja {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 25px;     
+    justify-content: space-between;
+
+}
+
+
+    p{
+
+        margin: 5px;
+        text-align: center;
+        background-color: aqua;
+        border: 1px solid;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+#p2{
+
+    margin: 5px;
+    text-align: center;
+    background-color: aqua;
+    border: 1px solid;
+    width: 45%;
+    float: right;
+    
+}
+
+#p3 {
+    margin: 5px;
+    text-align: center;
+    background-color: aqua;
+    border: 1px solid;
+    clear: both;
+}
+
+#p1 {
+    margin: 5px;
+    text-align: center;
+    background-color: aqua;
+    border: 1px solid;
+    width: 45%;
+    float: left;
+} }
+
+@media (max-width: 767px) { 
+    
+    #caja {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 25px;     
+    justify-content: space-between;
+    
+}
+
+    p{
+        margin: 5px;
+        text-align: center;
+        background-color: aqua;
+        border: 1px solid;
+    }
+ }
