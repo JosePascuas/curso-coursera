@@ -1,0 +1,21 @@
+#navcolor {
+    background-color: indianred !important;
+
+}
+
+section {
+    background-color: grey;
+    padding: 20px;
+    margin: 0px 20px 0px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    justify-content: center;
+
+}
+
+.lista{
+    background-color: coral;
+    border: 1px solid black;
+    border-radius: 20px;
+    
+}
